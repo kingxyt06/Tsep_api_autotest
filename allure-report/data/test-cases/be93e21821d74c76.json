@@ -1,0 +1,240 @@
+{
+  "uid" : "be93e21821d74c76",
+  "name" : "读取h5列表",
+  "fullName" : "case.ArticleH5.test_GetArticleH5List.TestGetArticleH5List#test_GetArticleH5List",
+  "historyId" : "87636ec7adfb0ce45b68e68e121f687f",
+  "time" : {
+    "start" : 1646916813057,
+    "stop" : 1646916813233,
+    "duration" : 176
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "前置步骤----开始获取请求域名",
+    "time" : {
+      "start" : 1646916813048,
+      "stop" : 1646916813053,
+      "duration" : 5
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "前置步骤----开始获取token",
+    "time" : {
+      "start" : 1646916813053,
+      "stop" : 1646916813057,
+      "duration" : 4
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "335fac46fd06d180",
+      "name" : "log",
+      "source" : "335fac46fd06d180.txt",
+      "type" : "text/plain",
+      "size" : 3970
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "nomal"
+  }, {
+    "name" : "feature",
+    "value" : "H5文章管理"
+  }, {
+    "name" : "parentSuite",
+    "value" : "case.ArticleH5"
+  }, {
+    "name" : "suite",
+    "value" : "test_GetArticleH5List"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestGetArticleH5List"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-A6AGSFG"
+  }, {
+    "name" : "thread",
+    "value" : "22908-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.ArticleH5.test_GetArticleH5List"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 14,
+        "unknown" : 0,
+        "total" : 14
+      },
+      "items" : [ {
+        "uid" : "1adaa9683095db32",
+        "reportUrl" : "http://localhost:8090/job/Tsep_api_allure/15/allure/#testresult/1adaa9683095db32",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646916691267,
+          "stop" : 1646916691534,
+          "duration" : 267
+        }
+      }, {
+        "uid" : "f734fda117336951",
+        "reportUrl" : "http://localhost:8090/job/Tsep_api_allure/14/allure/#testresult/f734fda117336951",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646906696479,
+          "stop" : 1646906696651,
+          "duration" : 172
+        }
+      }, {
+        "uid" : "2712549c1e1a4488",
+        "reportUrl" : "http://localhost:8090/job/Tsep_api_allure/13/allure/#testresult/2712549c1e1a4488",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646906696479,
+          "stop" : 1646906696651,
+          "duration" : 172
+        }
+      }, {
+        "uid" : "64dde54b9d12a841",
+        "reportUrl" : "http://localhost:8090/job/Tsep_api_allure/11/allure/#testresult/64dde54b9d12a841",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646906696479,
+          "stop" : 1646906696651,
+          "duration" : 172
+        }
+      }, {
+        "uid" : "982a36e6ec6fe0d8",
+        "reportUrl" : "http://localhost:8090/job/Tsep_api_allure/10/allure/#testresult/982a36e6ec6fe0d8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646906696479,
+          "stop" : 1646906696651,
+          "duration" : 172
+        }
+      }, {
+        "uid" : "9f77edd8f3c10e5e",
+        "reportUrl" : "http://localhost:8090/job/Tsep_api_allure/9/allure/#testresult/9f77edd8f3c10e5e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646906696479,
+          "stop" : 1646906696651,
+          "duration" : 172
+        }
+      }, {
+        "uid" : "4555ff5f4d95adf0",
+        "reportUrl" : "http://localhost:8090/job/Tsep_api_allure/8/allure/#testresult/4555ff5f4d95adf0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646906696479,
+          "stop" : 1646906696651,
+          "duration" : 172
+        }
+      }, {
+        "uid" : "32cd29ec7696a60f",
+        "reportUrl" : "http://localhost:8090/job/Tsep_api_allure/7/allure/#testresult/32cd29ec7696a60f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646906233454,
+          "stop" : 1646906233634,
+          "duration" : 180
+        }
+      }, {
+        "uid" : "6b5b0fe681102d20",
+        "reportUrl" : "http://localhost:8090/job/Tsep_api_allure/6/allure/#testresult/6b5b0fe681102d20",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646906233454,
+          "stop" : 1646906233634,
+          "duration" : 180
+        }
+      }, {
+        "uid" : "cde080ecf667104",
+        "reportUrl" : "http://localhost:8090/job/Tsep_api_allure/5/allure/#testresult/cde080ecf667104",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646906233454,
+          "stop" : 1646906233634,
+          "duration" : 180
+        }
+      }, {
+        "uid" : "bebcdc95c17bb0b5",
+        "reportUrl" : "http://localhost:8090/job/Tsep_api_allure/4/allure/#testresult/bebcdc95c17bb0b5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646906233454,
+          "stop" : 1646906233634,
+          "duration" : 180
+        }
+      }, {
+        "uid" : "dc2a8fbe62d3f985",
+        "reportUrl" : "http://localhost:8090/job/Tsep_api_allure/3/allure/#testresult/dc2a8fbe62d3f985",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646905308836,
+          "stop" : 1646905309022,
+          "duration" : 186
+        }
+      }, {
+        "uid" : "77be7f043f637bf0",
+        "reportUrl" : "http://localhost:8090/job/Tsep_api_allure/2/allure/#testresult/77be7f043f637bf0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646905308836,
+          "stop" : 1646905309022,
+          "duration" : 186
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "be93e21821d74c76.json",
+  "parameterValues" : [ ]
+}

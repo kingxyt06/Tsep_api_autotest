@@ -1,0 +1,24 @@
+BASE:
+  test:
+    url: "https://v2test.tsepcn.com"
+    path: "/api/access/pb/cmd/"
+    token: "apitest-tsep-test"
+  log:
+    name: "test"
+    level: "info"
+    format: "%(lineno)d-%(asctime)s-%(levelname)s-%(message)s"
+    file_extension: ".log"
+  body:
+    header:
+      version: ""
+      flag: 0
+    body:
+      seq: 9
+      cmd: cmd
+      token: token
+      client:
+        platform: 9
+        env: ""
+        isTourist: 48
+        product : 12
+      payload: {}

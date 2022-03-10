@@ -1,0 +1,13 @@
+requestsUtil.py-27-2022-02-18 10:09:22,960-INFO-开始post请求
+requestsUtil.py-27-2022-02-18 10:09:38,754-INFO-开始post请求
+requestsUtil.py-27-2022-02-18 10:32:33,264-INFO-开始post请求
+requestsUtil.py-27-2022-02-18 10:46:55,077-INFO-开始post请求
+requestsUtil.py-27-2022-02-18 10:52:11,443-INFO-开始post请求
+requestsUtil.py-27-2022-02-18 11:03:00,220-INFO-开始post请求
+AssertUtil.py-13-2022-02-18 11:03:00,478-ERROR-公共断言失败,接口返回码错误
+requestsUtil.py-27-2022-02-18 11:03:33,513-INFO-开始post请求
+AssertUtil.py-13-2022-02-18 11:03:33,727-ERROR-公共断言失败,接口返回码错误
+requestsUtil.py-27-2022-02-18 11:03:55,241-INFO-开始post请求
+AssertUtil.py-13-2022-02-18 11:03:55,447-ERROR-公共断言失败,接口返回码错误
+requestsUtil.py-27-2022-02-18 11:10:44,441-INFO-开始post请求
+AssertUtil.py-13-2022-02-18 11:10:44,641-ERROR-公共断言失败,接口返回码错误

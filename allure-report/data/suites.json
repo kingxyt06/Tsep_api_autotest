@@ -1,0 +1,167 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "case",
+    "children" : [ {
+      "name" : "test_demo",
+      "children" : [ {
+        "name" : "TestGetBannerList",
+        "children" : [ {
+          "name" : "test_GetBannerList",
+          "uid" : "5d3cca0e5f5028e1",
+          "parentUid" : "4b56f7210e6e6af32932f273c082a6d1",
+          "status" : "passed",
+          "time" : {
+            "start" : 1646916812829,
+            "stop" : 1646916813045,
+            "duration" : 216
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "4b56f7210e6e6af32932f273c082a6d1"
+      } ],
+      "uid" : "09bcc35122ff83db5d9e9a19709ea9ed"
+    } ],
+    "uid" : "7559db31629684e5f31176d189a833ac"
+  }, {
+    "name" : "case.ArticleH5",
+    "children" : [ {
+      "name" : "test_GetArticleH5List",
+      "children" : [ {
+        "name" : "TestGetArticleH5List",
+        "children" : [ {
+          "name" : "读取h5列表",
+          "uid" : "be93e21821d74c76",
+          "parentUid" : "6cd8152ce6dd6f235bdbd22e9598e631",
+          "status" : "passed",
+          "time" : {
+            "start" : 1646916813057,
+            "stop" : 1646916813233,
+            "duration" : 176
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "6cd8152ce6dd6f235bdbd22e9598e631"
+      } ],
+      "uid" : "492fe8ad34f04ac085335e87f292be2f"
+    } ],
+    "uid" : "afd5c68c3a3e0696bfaafa6821bb82ae"
+  }, {
+    "name" : "case.LableServer",
+    "children" : [ {
+      "name" : "test_GetAllLabelInfoList",
+      "children" : [ {
+        "name" : "TestGetAllLabelInfoList",
+        "children" : [ {
+          "name" : "获取全部标签列表信息",
+          "uid" : "4cb2d4b923ad7259",
+          "parentUid" : "aeecda9809dd01a03d778ae0bdcbd233",
+          "status" : "passed",
+          "time" : {
+            "start" : 1646916813245,
+            "stop" : 1646916813414,
+            "duration" : 169
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "aeecda9809dd01a03d778ae0bdcbd233"
+      } ],
+      "uid" : "dfd21eb9de590ed4cf03ab97bfd08af8"
+    }, {
+      "name" : "test_GetLabelClass",
+      "children" : [ {
+        "name" : "TestGetLabelClass",
+        "children" : [ {
+          "name" : "查询标签分类列表",
+          "uid" : "3ea16261508d00f1",
+          "parentUid" : "7bd0464d7a6aea8b381f77b4997854a3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1646916813426,
+            "stop" : 1646916813589,
+            "duration" : 163
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "7bd0464d7a6aea8b381f77b4997854a3"
+      } ],
+      "uid" : "4d88765185cb4e6e8eb3074dcfa37b7a"
+    }, {
+      "name" : "test_GetLabelDetail",
+      "children" : [ {
+        "name" : "TestGetLabelDetail",
+        "children" : [ {
+          "name" : "标签详情",
+          "uid" : "ec028c786d01bf93",
+          "parentUid" : "2fc2d1947de092b1d1946e4f1d1b8240",
+          "status" : "passed",
+          "time" : {
+            "start" : 1646916813771,
+            "stop" : 1646916813936,
+            "duration" : 165
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "2fc2d1947de092b1d1946e4f1d1b8240"
+      } ],
+      "uid" : "263e1f1a8e94a96b2ee1ee95c80119f8"
+    }, {
+      "name" : "test_GetLabelInfoList",
+      "children" : [ {
+        "name" : "TestGetLabelInfoList",
+        "children" : [ {
+          "name" : "查询标签列表",
+          "uid" : "4e6303040f686a11",
+          "parentUid" : "718814b5dc6a0980e6176f1bfec0159a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1646916813948,
+            "stop" : 1646916814108,
+            "duration" : 160
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "718814b5dc6a0980e6176f1bfec0159a"
+      } ],
+      "uid" : "d12cbe7cf5918d1d7ced17efb8ddc1ee"
+    } ],
+    "uid" : "8baa8c8e97aa9969b86d6e49526ef330"
+  } ]
+}

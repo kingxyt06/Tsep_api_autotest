@@ -1,0 +1,2 @@
+INFO     AssertUtil:AssertUtil.py:17 响应json======⬇️⬇️ 
+{"body": {"message": "success", "cmd": "GetLabelDetail", "traceid": "1818974a-55e2-4ffe-97a6-73f20b53620c", "payload": {"create_time": "2021-08-06 11:28:23 +0800 CST", "update_user": "", "status": 1, "create_user": "", "update_time": "2021-08-17 15:11:19 +0800 CST", "id": 10122, "label_name": "1", "label_type": 78, "remark": ""}, "seq": 9, "bizcode": 0, "retcode": 0}, "header": {"flag": 0, "version": ""}}

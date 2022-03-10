@@ -1,0 +1,139 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "case",
+    "children" : [ {
+      "name" : "test_demo",
+      "children" : [ {
+        "name" : "test_GetBannerList",
+        "uid" : "5d3cca0e5f5028e1",
+        "parentUid" : "85add8c9b4194e5aeb79b5e26139c1be",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646916812829,
+          "stop" : 1646916813045,
+          "duration" : 216
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "85add8c9b4194e5aeb79b5e26139c1be"
+    }, {
+      "name" : "ArticleH5.test_GetArticleH5List",
+      "children" : [ {
+        "name" : "读取h5列表",
+        "uid" : "be93e21821d74c76",
+        "parentUid" : "051eab63985a670a06979550cbaf60c9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646916813057,
+          "stop" : 1646916813233,
+          "duration" : 176
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ArticleH5.test_GetArticleH5List"
+    }, {
+      "name" : "LableServer",
+      "children" : [ {
+        "name" : "test_GetAllLabelInfoList",
+        "children" : [ {
+          "name" : "获取全部标签列表信息",
+          "uid" : "4cb2d4b923ad7259",
+          "parentUid" : "c1248ae09a4298d0769471656767d875",
+          "status" : "passed",
+          "time" : {
+            "start" : 1646916813245,
+            "stop" : 1646916813414,
+            "duration" : 169
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "c1248ae09a4298d0769471656767d875"
+      }, {
+        "name" : "test_GetLabelClass",
+        "children" : [ {
+          "name" : "查询标签分类列表",
+          "uid" : "3ea16261508d00f1",
+          "parentUid" : "5bc475df63066079afc865ca2e6b2c23",
+          "status" : "passed",
+          "time" : {
+            "start" : 1646916813426,
+            "stop" : 1646916813589,
+            "duration" : 163
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "5bc475df63066079afc865ca2e6b2c23"
+      }, {
+        "name" : "test_GetLabelDetail",
+        "children" : [ {
+          "name" : "标签详情",
+          "uid" : "ec028c786d01bf93",
+          "parentUid" : "a260f1fcd09800482695feb7d8df963a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1646916813771,
+            "stop" : 1646916813936,
+            "duration" : 165
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "a260f1fcd09800482695feb7d8df963a"
+      }, {
+        "name" : "test_GetLabelInfoList",
+        "children" : [ {
+          "name" : "查询标签列表",
+          "uid" : "4e6303040f686a11",
+          "parentUid" : "a9ef408f6dc37af62d13e572a106a4d9",
+          "status" : "passed",
+          "time" : {
+            "start" : 1646916813948,
+            "stop" : 1646916814108,
+            "duration" : 160
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "a9ef408f6dc37af62d13e572a106a4d9"
+      } ],
+      "uid" : "175f26a09b5c75f726505abb2c4b00de"
+    } ],
+    "uid" : "3a5ff917f72cbd03b2a2ff2549394ef0"
+  } ]
+}

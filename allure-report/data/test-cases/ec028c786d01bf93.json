@@ -1,0 +1,255 @@
+{
+  "uid" : "ec028c786d01bf93",
+  "name" : "标签详情",
+  "fullName" : "case.LableServer.test_GetLabelDetail.TestGetLabelDetail#test_GetLabelDetail",
+  "historyId" : "6456be9cc0f250c3ed543a7aff4802cd",
+  "time" : {
+    "start" : 1646916813771,
+    "stop" : 1646916813936,
+    "duration" : 165
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "前置步骤----开始获取请求域名",
+    "time" : {
+      "start" : 1646916813593,
+      "stop" : 1646916813598,
+      "duration" : 5
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "前置步骤----开始获取token",
+    "time" : {
+      "start" : 1646916813598,
+      "stop" : 1646916813599,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "\n前置步骤----获取标签id",
+    "time" : {
+      "start" : 1646916813600,
+      "stop" : 1646916813771,
+      "duration" : 171
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "823b73abf62ad4ad",
+      "name" : "log",
+      "source" : "823b73abf62ad4ad.txt",
+      "type" : "text/plain",
+      "size" : 475
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "标签管理"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "parentSuite",
+    "value" : "case.LableServer"
+  }, {
+    "name" : "suite",
+    "value" : "test_GetLabelDetail"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestGetLabelDetail"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-A6AGSFG"
+  }, {
+    "name" : "thread",
+    "value" : "22908-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.LableServer.test_GetLabelDetail"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 14,
+        "unknown" : 0,
+        "total" : 14
+      },
+      "items" : [ {
+        "uid" : "703b93721e289b1",
+        "reportUrl" : "http://localhost:8090/job/Tsep_api_allure/15/allure/#testresult/703b93721e289b1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646916692068,
+          "stop" : 1646916692228,
+          "duration" : 160
+        }
+      }, {
+        "uid" : "46aa085e200d6f3",
+        "reportUrl" : "http://localhost:8090/job/Tsep_api_allure/14/allure/#testresult/46aa085e200d6f3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646906697303,
+          "stop" : 1646906697469,
+          "duration" : 166
+        }
+      }, {
+        "uid" : "8177d93653ed6742",
+        "reportUrl" : "http://localhost:8090/job/Tsep_api_allure/13/allure/#testresult/8177d93653ed6742",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646906697303,
+          "stop" : 1646906697469,
+          "duration" : 166
+        }
+      }, {
+        "uid" : "dccbc63cede79948",
+        "reportUrl" : "http://localhost:8090/job/Tsep_api_allure/11/allure/#testresult/dccbc63cede79948",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646906697303,
+          "stop" : 1646906697469,
+          "duration" : 166
+        }
+      }, {
+        "uid" : "8643226cae8cd075",
+        "reportUrl" : "http://localhost:8090/job/Tsep_api_allure/10/allure/#testresult/8643226cae8cd075",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646906697303,
+          "stop" : 1646906697469,
+          "duration" : 166
+        }
+      }, {
+        "uid" : "8f43547b7fbb2316",
+        "reportUrl" : "http://localhost:8090/job/Tsep_api_allure/9/allure/#testresult/8f43547b7fbb2316",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646906697303,
+          "stop" : 1646906697469,
+          "duration" : 166
+        }
+      }, {
+        "uid" : "44694eb3e5653ccf",
+        "reportUrl" : "http://localhost:8090/job/Tsep_api_allure/8/allure/#testresult/44694eb3e5653ccf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646906697303,
+          "stop" : 1646906697469,
+          "duration" : 166
+        }
+      }, {
+        "uid" : "e02c06665ec6e1aa",
+        "reportUrl" : "http://localhost:8090/job/Tsep_api_allure/7/allure/#testresult/e02c06665ec6e1aa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646906234294,
+          "stop" : 1646906234467,
+          "duration" : 173
+        }
+      }, {
+        "uid" : "be2b44018a875f97",
+        "reportUrl" : "http://localhost:8090/job/Tsep_api_allure/6/allure/#testresult/be2b44018a875f97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646906234294,
+          "stop" : 1646906234467,
+          "duration" : 173
+        }
+      }, {
+        "uid" : "ac15af31d973e820",
+        "reportUrl" : "http://localhost:8090/job/Tsep_api_allure/5/allure/#testresult/ac15af31d973e820",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646906234294,
+          "stop" : 1646906234467,
+          "duration" : 173
+        }
+      }, {
+        "uid" : "bf4b90e85b85d3f2",
+        "reportUrl" : "http://localhost:8090/job/Tsep_api_allure/4/allure/#testresult/bf4b90e85b85d3f2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646906234294,
+          "stop" : 1646906234467,
+          "duration" : 173
+        }
+      }, {
+        "uid" : "f04ad129e419ab9a",
+        "reportUrl" : "http://localhost:8090/job/Tsep_api_allure/3/allure/#testresult/f04ad129e419ab9a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646905309612,
+          "stop" : 1646905309781,
+          "duration" : 169
+        }
+      }, {
+        "uid" : "5286ae413cc5b7ac",
+        "reportUrl" : "http://localhost:8090/job/Tsep_api_allure/2/allure/#testresult/5286ae413cc5b7ac",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646905309612,
+          "stop" : 1646905309781,
+          "duration" : 169
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ec028c786d01bf93.json",
+  "parameterValues" : [ ]
+}
