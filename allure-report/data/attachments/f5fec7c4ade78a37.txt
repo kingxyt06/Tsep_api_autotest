@@ -1,2 +1,0 @@
-INFO     AssertUtil:AssertUtil.py:17 响应json======⬇️⬇️ 
-{"body": {"message": "success", "cmd": "GetLabelInfoList", "traceid": "68b3da52-2606-4ea6-ba0b-c3dbffc1a00a", "payload": {"page_index": 0, "page_size": 0, "list": [], "total": 0}, "seq": 9, "bizcode": 0, "retcode": 0}, "header": {"flag": 0, "version": ""}}

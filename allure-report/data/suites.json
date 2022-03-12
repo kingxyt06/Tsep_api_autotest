@@ -9,13 +9,13 @@
         "name" : "TestGetBannerList",
         "children" : [ {
           "name" : "test_GetBannerList",
-          "uid" : "5d3cca0e5f5028e1",
+          "uid" : "48a6720cd9d18810",
           "parentUid" : "4b56f7210e6e6af32932f273c082a6d1",
           "status" : "passed",
           "time" : {
-            "start" : 1646916812829,
-            "stop" : 1646916813045,
-            "duration" : 216
+            "start" : 1647067552859,
+            "stop" : 1647067553042,
+            "duration" : 183
           },
           "flaky" : false,
           "newFailed" : false,
@@ -38,12 +38,12 @@
         "name" : "TestGetArticleH5List",
         "children" : [ {
           "name" : "读取h5列表",
-          "uid" : "be93e21821d74c76",
+          "uid" : "81e4984b6a445359",
           "parentUid" : "6cd8152ce6dd6f235bdbd22e9598e631",
           "status" : "passed",
           "time" : {
-            "start" : 1646916813057,
-            "stop" : 1646916813233,
+            "start" : 1647067553056,
+            "stop" : 1647067553232,
             "duration" : 176
           },
           "flaky" : false,
@@ -67,13 +67,13 @@
         "name" : "TestGetAllLabelInfoList",
         "children" : [ {
           "name" : "获取全部标签列表信息",
-          "uid" : "4cb2d4b923ad7259",
+          "uid" : "dec80d2c74970d9f",
           "parentUid" : "aeecda9809dd01a03d778ae0bdcbd233",
           "status" : "passed",
           "time" : {
-            "start" : 1646916813245,
-            "stop" : 1646916813414,
-            "duration" : 169
+            "start" : 1647067553255,
+            "stop" : 1647067553423,
+            "duration" : 168
           },
           "flaky" : false,
           "newFailed" : false,
@@ -92,13 +92,13 @@
         "name" : "TestGetLabelClass",
         "children" : [ {
           "name" : "查询标签分类列表",
-          "uid" : "3ea16261508d00f1",
+          "uid" : "265a51ebe40e37d",
           "parentUid" : "7bd0464d7a6aea8b381f77b4997854a3",
           "status" : "passed",
           "time" : {
-            "start" : 1646916813426,
-            "stop" : 1646916813589,
-            "duration" : 163
+            "start" : 1647067553439,
+            "stop" : 1647067553598,
+            "duration" : 159
           },
           "flaky" : false,
           "newFailed" : false,
@@ -117,13 +117,13 @@
         "name" : "TestGetLabelDetail",
         "children" : [ {
           "name" : "标签详情",
-          "uid" : "ec028c786d01bf93",
+          "uid" : "7cecd903658081f6",
           "parentUid" : "2fc2d1947de092b1d1946e4f1d1b8240",
           "status" : "passed",
           "time" : {
-            "start" : 1646916813771,
-            "stop" : 1646916813936,
-            "duration" : 165
+            "start" : 1647067553778,
+            "stop" : 1647067553935,
+            "duration" : 157
           },
           "flaky" : false,
           "newFailed" : false,
@@ -142,13 +142,13 @@
         "name" : "TestGetLabelInfoList",
         "children" : [ {
           "name" : "查询标签列表",
-          "uid" : "4e6303040f686a11",
+          "uid" : "fac7cb7db10dbdbf",
           "parentUid" : "718814b5dc6a0980e6176f1bfec0159a",
           "status" : "passed",
           "time" : {
-            "start" : 1646916813948,
-            "stop" : 1646916814108,
-            "duration" : 160
+            "start" : 1647067553951,
+            "stop" : 1647067554109,
+            "duration" : 158
           },
           "flaky" : false,
           "newFailed" : false,

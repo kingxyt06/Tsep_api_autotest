@@ -1,60 +1,60 @@
 [ {
-  "uid" : "ec028c786d01bf93",
-  "name" : "标签详情",
-  "time" : {
-    "start" : 1646916813771,
-    "stop" : 1646916813936,
-    "duration" : 165
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5d3cca0e5f5028e1",
+  "uid" : "48a6720cd9d18810",
   "name" : "test_GetBannerList",
   "time" : {
-    "start" : 1646916812829,
-    "stop" : 1646916813045,
-    "duration" : 216
+    "start" : 1647067552859,
+    "stop" : 1647067553042,
+    "duration" : 183
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "3ea16261508d00f1",
-  "name" : "查询标签分类列表",
+  "uid" : "7cecd903658081f6",
+  "name" : "标签详情",
   "time" : {
-    "start" : 1646916813426,
-    "stop" : 1646916813589,
-    "duration" : 163
+    "start" : 1647067553778,
+    "stop" : 1647067553935,
+    "duration" : 157
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "4cb2d4b923ad7259",
-  "name" : "获取全部标签列表信息",
-  "time" : {
-    "start" : 1646916813245,
-    "stop" : 1646916813414,
-    "duration" : 169
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "be93e21821d74c76",
-  "name" : "读取h5列表",
-  "time" : {
-    "start" : 1646916813057,
-    "stop" : 1646916813233,
-    "duration" : 176
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4e6303040f686a11",
+  "uid" : "fac7cb7db10dbdbf",
   "name" : "查询标签列表",
   "time" : {
-    "start" : 1646916813948,
-    "stop" : 1646916814108,
-    "duration" : 160
+    "start" : 1647067553951,
+    "stop" : 1647067554109,
+    "duration" : 158
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "265a51ebe40e37d",
+  "name" : "查询标签分类列表",
+  "time" : {
+    "start" : 1647067553439,
+    "stop" : 1647067553598,
+    "duration" : 159
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dec80d2c74970d9f",
+  "name" : "获取全部标签列表信息",
+  "time" : {
+    "start" : 1647067553255,
+    "stop" : 1647067553423,
+    "duration" : 168
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "81e4984b6a445359",
+  "name" : "读取h5列表",
+  "time" : {
+    "start" : 1647067553056,
+    "stop" : 1647067553232,
+    "duration" : 176
   },
   "status" : "passed",
   "severity" : "normal"

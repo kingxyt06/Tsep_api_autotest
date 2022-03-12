@@ -1,10 +1,10 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Thu Mar 10 20:53:33 CST 2022","Thu Mar 10 20:53:33 CST 2022","165","case.LableServer","test_GetLabelDetail","TestGetLabelDetail","","","标签详情",""
-"passed","Thu Mar 10 20:53:32 CST 2022","Thu Mar 10 20:53:33 CST 2022","216","case","test_demo","TestGetBannerList","","","test_GetBannerList",""
-"passed","Thu Mar 10 20:53:33 CST 2022","Thu Mar 10 20:53:33 CST 2022","163","case.LableServer","test_GetLabelClass","TestGetLabelClass","","","查询标签分类列表",""
-"passed","Thu Mar 10 20:53:33 CST 2022","Thu Mar 10 20:53:33 CST 2022","169","case.LableServer","test_GetAllLabelInfoList","TestGetAllLabelInfoList","","","获取全部标签列表信息","
+"passed","Sat Mar 12 14:45:52 CST 2022","Sat Mar 12 14:45:53 CST 2022","183","case","test_demo","TestGetBannerList","","","test_GetBannerList",""
+"passed","Sat Mar 12 14:45:53 CST 2022","Sat Mar 12 14:45:53 CST 2022","157","case.LableServer","test_GetLabelDetail","TestGetLabelDetail","","","标签详情",""
+"passed","Sat Mar 12 14:45:53 CST 2022","Sat Mar 12 14:45:54 CST 2022","158","case.LableServer","test_GetLabelInfoList","TestGetLabelInfoList","","","查询标签列表",""
+"passed","Sat Mar 12 14:45:53 CST 2022","Sat Mar 12 14:45:53 CST 2022","159","case.LableServer","test_GetLabelClass","TestGetLabelClass","","","查询标签分类列表",""
+"passed","Sat Mar 12 14:45:53 CST 2022","Sat Mar 12 14:45:53 CST 2022","168","case.LableServer","test_GetAllLabelInfoList","TestGetAllLabelInfoList","","","获取全部标签列表信息","
     这是一个@allure.description装饰器
     没有特别的用处
     "
-"passed","Thu Mar 10 20:53:33 CST 2022","Thu Mar 10 20:53:33 CST 2022","176","case.ArticleH5","test_GetArticleH5List","TestGetArticleH5List","","","读取h5列表",""
-"passed","Thu Mar 10 20:53:33 CST 2022","Thu Mar 10 20:53:34 CST 2022","160","case.LableServer","test_GetLabelInfoList","TestGetLabelInfoList","","","查询标签列表",""
+"passed","Sat Mar 12 14:45:53 CST 2022","Sat Mar 12 14:45:53 CST 2022","176","case.ArticleH5","test_GetArticleH5List","TestGetArticleH5List","","","读取h5列表",""

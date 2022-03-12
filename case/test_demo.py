@@ -12,7 +12,7 @@ from utils.requestsUtil import RequestUtil
 
 class TestGetBannerList():
     # self.log = my_log(log_name="TestGetBannerList")
-
+    @pytest.mark.skip()
     def test_GetBannerList(self):
         url = ConfigReader().get_conf_url()
         path = ConfigReader().get_conf_path()

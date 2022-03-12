@@ -1,10 +1,1 @@
-[ {
-  "name" : "Jenkins",
-  "type" : "jenkins",
-  "url" : "http://localhost:8090/",
-  "buildOrder" : 16,
-  "buildName" : "Tsep_api_autotest #16",
-  "buildUrl" : "http://localhost:8090/job/Tsep_api_allure/16/",
-  "reportName" : "AllureReport",
-  "reportUrl" : "http://localhost:8090/job/Tsep_api_allure/16/allure"
-} ]
+[ ]

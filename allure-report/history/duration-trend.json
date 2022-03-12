@@ -1,9 +1,6 @@
 [ {
-  "buildOrder" : 16,
-  "reportUrl" : "http://localhost:8090/job/Tsep_api_allure/16/allure",
-  "reportName" : "AllureReport",
   "data" : {
-    "duration" : 1279
+    "duration" : 1250
   }
 }, {
   "buildOrder" : 15,
