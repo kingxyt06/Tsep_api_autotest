@@ -3,6 +3,7 @@ import pytest
 import allure
 
 from config.conf import ConfigReader
+from utils.YamlUtil import YamlUtil
 from utils.requestsUtil import RequestUtil
 
 token = ConfigReader().get_conf_token()
@@ -10,14 +11,19 @@ url = ConfigReader().get_conf_url()
 path = ConfigReader().get_conf_path()
 
 
+#在所有的接口请求之前执行
+@pytest.fixture(scope="session",autouse=True)
+def clear_extract():
+    YamlUtil().clear_yaml()
+
 @allure.title("前置步骤----开始获取请求域名")
 @pytest.fixture(scope="module")
 def req_url():
     print("\n前置步骤----开始获取请求域名")
     url = ConfigReader().get_conf_url()
-    path = ConfigReader().get_conf_path()
-    req_url = url + path
-    return req_url
+    # path = ConfigReader().get_conf_path()
+    # req_url = url + path
+    return url
 
 
 @allure.title("前置步骤----开始获取token")
@@ -54,8 +60,9 @@ def get_label_id():
             "payload": {}
         }
     }
-    rsp = RequestUtil().visit(method="POST", url=url + path, json=req_body)
+    rsp = RequestUtil().visit(method="POST", url=url, json=req_body)
     rsp = rsp.json()
+    print(rsp)
     labelid = rsp['body']['payload']['LabelGroupList'][0]['LabelList'][0]['Id']
     return labelid
 

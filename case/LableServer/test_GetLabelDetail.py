@@ -19,5 +19,6 @@ class TestGetLabelDetail():
         body['body']['token'] = req_token
         body['body']['payload'] = {'id': get_label_id}
         rsp = RequestUtil().visit(method="POST", url=req_url, json=body)
+        print(body)
         rsp = json.loads(rsp.text)
         AssertUtil().assertCommon(rsp)

@@ -1,0 +1,15 @@
+- method: "POST"
+  body:
+    header:
+      version: ""
+      flag: 0
+    body:
+      seq: 9
+      cmd: "GetLabelDetail"
+      token: "apitest-tsep-test"
+      client:
+        platform: 9
+        env: ""
+        isTourist: 48
+        product: 12
+      payload: { 'id': ${id} }

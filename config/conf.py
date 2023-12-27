@@ -1,7 +1,7 @@
 import os
 
 # 获取当前文件目录
-from utils.YamlUtil import YamlReader
+from utils.YamlUtil import YamlUtil
 
 current_path = os.path.abspath(__file__)
 # print(current_path)
@@ -26,7 +26,7 @@ def get_config_file():
 class ConfigReader:
     #初始化读取配置
     def __init__(self):
-        self.config = YamlReader(get_config_file()).data()
+        self.config = YamlUtil().read_yaml(get_config_file())
 
     #获取全部配置项
     def get_conf_all(self):

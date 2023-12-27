@@ -1,6 +1,6 @@
 BASE:
   test:
-    url: "https://v2test.tsepcn.com"
+    url: "https://v2test.tsepcn.com/api/access/pb/cmd/"
     path: "/api/access/pb/cmd/"
     token: "apitest-tsep-test"
   log:
