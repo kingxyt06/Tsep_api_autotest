@@ -15,14 +15,24 @@ class YamlUtil:
         self._data = None
         self._data_all = None
 
-    def read_yaml(self, yamlf):
+    # 读yaml文件  读取单文档
+    def load_data(self, yamlf):
+        print(yamlf)
         if os.path.exists(yamlf):
             self.yamlf = yamlf
         else:
             raise FileNotFoundError("文件不存在")
-        with open(self.yamlf, "rb") as f:
-            self._data = yaml.safe_load(f)
-            return self._data
+        if not self._data:
+            with open(self.yamlf, "rb") as f:
+                self._data = yaml.safe_load(f)
+                return self._data
+
+    def read_yaml(self, key):
+        with open(os.getcwd() + '/extract.yaml', encoding='utf-8', mode='r') as f:
+            value = yaml.load(f, yaml.FullLoader)
+            return value[key]
+
+
 
     # 写入
     def write_yaml(self, data):
@@ -33,13 +43,6 @@ class YamlUtil:
     def clear_yaml(self):
         with open(os.getcwd() + '/extract.yaml', encoding='utf-8', mode='w') as f:
             f.truncate()
-
-    # 读yaml文件  读取单文档
-    def data(self):
-        if not self._data:
-            with open(self.yamlf, "rb") as f:
-                self._data = yaml.safe_load(f)
-                return self._data
 
     # 读取多文档
     def data_all(self):

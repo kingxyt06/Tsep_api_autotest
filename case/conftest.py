@@ -12,9 +12,9 @@ path = ConfigReader().get_conf_path()
 
 
 #在所有的接口请求之前执行
-@pytest.fixture(scope="session",autouse=True)
-def clear_extract():
-    YamlUtil().clear_yaml()
+# @pytest.fixture(scope="session",autouse=True)
+# def clear_extract():
+#     YamlUtil().clear_yaml()
 
 @allure.title("前置步骤----开始获取请求域名")
 @pytest.fixture(scope="module")

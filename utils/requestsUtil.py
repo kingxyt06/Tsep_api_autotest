@@ -19,12 +19,42 @@ class RequestUtil:
         return self.session.request(method=method, url=url, params=params, data=data, json=json, headers=headers,
                                     **kwargs)
 
+    def replace_str(self, data):
+        data_type = type(data)
+        # print(data_type)
+        if isinstance(data, list) or isinstance(data, dict):
+            str_data = json.dumps(data)
+        else:
+            str_data = str(data)
+        for i in range(1, str_data.count('${') + 1):
+            if "${" in str_data and "}" in str_data:
+                start_index = str_data.index("${")
+                end_index = str_data.index("}")
+                old_value = str_data[start_index:end_index + 1]
+                new_value = YamlUtil().read_yaml(old_value[2:-1])
+                str_data = str_data.replace(old_value, new_value)
+                # print(f"参数{old_value}进行替换后的值:{new_value}")
+        # 还原数据类型
+        if isinstance(data, dict) or isinstance(data, list):
+            data = json.loads(str_data)
+            for k, v in data.items():
+                if isinstance(v, str) and v.isdigit():
+                    data[k] = int(v)
+        else:
+            data = data_type(str_data)
+        return data
+
     def send_request(self, method, url, datas=None, **kwargs):
         method = str(method).lower()  # 转换小写
         url = self.base_url + url
-        # **kwargs是个dict
-        # print(kwargs)
-        res = RequestUtil.sess.request(method, url, json=kwargs)
+        # print(kwargs)  **kwargs是个dict
+        for key, value in kwargs.items():
+            if key in ['body', 'header']:
+                kwargs['body']['payload'] = self.replace_str(kwargs['body']['payload'])
+        if method == 'post':
+            res = RequestUtil.sess.request(method, url, json=kwargs)
+        else:
+            res = RequestUtil.sess.request(method, url, params=kwargs)
         # print(res.request.body)
         return res
 

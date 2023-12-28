@@ -12,4 +12,5 @@
         env: ""
         isTourist: 48
         product: 12
-      payload: { 'id': ${id} }
+      payload:
+        'id': ${id}

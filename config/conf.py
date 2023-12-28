@@ -26,7 +26,7 @@ def get_config_file():
 class ConfigReader:
     #初始化读取配置
     def __init__(self):
-        self.config = YamlUtil().read_yaml(get_config_file())
+        self.config = YamlUtil().load_data(get_config_file())
 
     #获取全部配置项
     def get_conf_all(self):

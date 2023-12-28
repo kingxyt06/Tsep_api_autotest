@@ -14,4 +14,4 @@
         product: 12
       payload: {}
   extract:
-    label_id: '"Id":(\d+)'
+    id: '"Id":(\d+)'
