@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Execute Script') {
             steps {
-                sh 'bash your_script.sh' // 替换为实际的自动化脚本执行命令
+                bat 'python run.py'
             }
         }
     }
